@@ -243,4 +243,72 @@ the layout of the web pages*/
   text-align: center;
 }
 
+.site-footer {
+  padding-top: 2rem;
+}
+
+.footer-logo {
+  margin: 1rem auto;
+  width: 5rem;
+  height: 5rem;
+}
+.footer-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.footer-logo img {
+  width: inherit;
+  height: inherit;
+}
+
+.footer-nav {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.footer-nav .links-left, .footer-nav .links-right {
+  padding: 1rem;
+  text-align: center;
+  line-height: 1.4rem;
+}
+.footer-nav .links-right {
+  display: none;
+}
+.footer-nav .footer-nav-link {
+  margin: 0 0.5rem;
+}
+
+.subscribe-contact-about {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.subscribe, .contact, .about {
+  padding: 1rem;
+  text-align: center;
+}
+.subscribe h3, .contact h3, .about h3 {
+  margin-bottom: 1rem;
+}
+.subscribe button, .contact button, .about button {
+  margin-left: -5px;
+}
+
+.bottom-band {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1rem;
+}
+.bottom-band .social-channels {
+  margin-bottom: 1rem;
+}
+.bottom-band .social-link {
+  margin: 0 0.3rem;
+}
+.bottom-band .legal-info {
+  font-size: 0.875rem;
+}
+
 /*# sourceMappingURL=main-styles.css.map */

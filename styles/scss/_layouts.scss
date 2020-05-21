@@ -113,3 +113,76 @@ the layout of the web pages*/
         text-align: center;
     }
 }
+
+.site-footer {
+    padding-top: 2rem;
+}
+
+.footer-logo {
+    margin: 1rem auto;
+    width: 5rem;
+    height: 5rem;
+    a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    img {
+        width: inherit;
+        height: inherit;
+    }
+}
+
+.footer-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    .links-left {
+        padding: 1rem;
+        text-align: center;
+        line-height: 1.4rem;
+    }
+    .links-right{
+        display: none;
+        @extend .links-left
+    }
+
+    .footer-nav-link {
+        margin: 0 .5rem;
+    }
+}
+
+.subscribe-contact-about {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.subscribe, .contact, .about {
+    padding: 1rem;
+    text-align: center;
+    h3 {
+        margin-bottom: 1rem;
+    }
+    button {
+        margin-left: -5px;
+    }
+}
+
+.bottom-band {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 1rem;
+
+    .social-channels {
+        margin-bottom: 1rem;
+    }
+
+    .social-link {
+        margin: 0 .3rem;
+    }
+
+    .legal-info {
+        font-size: .875rem;
+    }
+}
