@@ -28,3 +28,31 @@ the layout of the web pages*/
 .top-link-text {
     display: none;
 }
+
+.search {
+    padding: 1rem;
+}
+
+.search-container {
+    margin: 8rem auto;
+    h2 {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+.search-form {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+    label {
+        margin-bottom: .5em;
+    }
+    input {
+        @extend label;
+        padding: .5em;
+    }
+    button {
+        padding: .5em;
+    }
+}

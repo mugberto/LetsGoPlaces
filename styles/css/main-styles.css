@@ -172,4 +172,31 @@ the layout of the web pages*/
   display: none;
 }
 
+.search {
+  padding: 1rem;
+}
+
+.search-container {
+  margin: 8rem auto;
+}
+.search-container h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.search-form {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem;
+}
+.search-form label, .search-form input {
+  margin-bottom: 0.5em;
+}
+.search-form input {
+  padding: 0.5em;
+}
+.search-form button {
+  padding: 0.5em;
+}
+
 /*# sourceMappingURL=main-styles.css.map */
