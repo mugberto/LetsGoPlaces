@@ -7,9 +7,11 @@ the layout of the web pages*/
     flex-flow: column nowrap;
     align-items: center;
     padding: 1rem;
+
     h1 {
         margin-bottom: 1rem;
     }
+
     .top-nav {
         display: flex;
         flex-flow: row nowrap;
@@ -35,6 +37,7 @@ the layout of the web pages*/
 
 .search-container {
     margin: 10rem auto;
+
     h2 {
         margin-bottom: 1rem;
         text-align: center;
@@ -45,13 +48,16 @@ the layout of the web pages*/
     display: flex;
     flex-flow: column nowrap;
     padding: 1rem;
+
     label {
         margin-bottom: .5em;
     }
+
     input {
         @extend label;
         padding: .5em;
     }
+
     button {
         padding: .5em;
     }
@@ -59,21 +65,51 @@ the layout of the web pages*/
 
 .user-guide {
     padding: 3rem 1rem;
+
     h2 {
         margin-bottom: 1rem;
         text-align: center;
     }
+
     article {
         padding: 2rem;
         text-align: center;
+
         span {
             display: block;
             font-size: 2rem;
             margin-bottom: 1rem;
         }
+
         h3 {
             font-size: 1.2rem;
             margin-bottom: 1rem;
         }
+    }
+}
+
+.safety-info, .testimonies, .platforms {
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 1rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
     }
 }
