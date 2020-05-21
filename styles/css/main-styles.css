@@ -177,7 +177,7 @@ the layout of the web pages*/
 }
 
 .search-container {
-  margin: 8rem auto;
+  margin: 10rem auto;
 }
 .search-container h2 {
   margin-bottom: 1rem;
@@ -197,6 +197,27 @@ the layout of the web pages*/
 }
 .search-form button {
   padding: 0.5em;
+}
+
+.user-guide {
+  padding: 3rem 1rem;
+}
+.user-guide h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.user-guide article {
+  padding: 2rem;
+  text-align: center;
+}
+.user-guide article span {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.user-guide article h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main-styles.css.map */
