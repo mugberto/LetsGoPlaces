@@ -168,10 +168,22 @@ the layout of the web pages*/
   vertical-align: middle;
 }
 
+.home-link {
+  white-space: nowrap;
+}
+
 .top-link-text {
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  .site-header {
+    flex-flow: row nowrap;
+  }
+  .site-header h1 {
+    margin-bottom: 0;
+  }
+}
 .search {
   padding: 1rem;
 }
