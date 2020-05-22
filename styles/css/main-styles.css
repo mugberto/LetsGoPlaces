@@ -185,6 +185,26 @@ the layout of the web pages*/
     margin-bottom: 0;
   }
 }
+@media screen and (min-width: 1024px) {
+  .site-header {
+    justify-content: space-between;
+  }
+  .site-header h1 {
+    margin-bottom: 0;
+  }
+  .site-header .top-nav {
+    flex-basis: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .top-link-text {
+    display: inline;
+    margin-left: 1rem;
+  }
+}
 .search {
   padding: 1rem;
 }

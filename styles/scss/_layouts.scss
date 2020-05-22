@@ -45,6 +45,27 @@ the layout of the web pages*/
     }
 }
 
+@media screen and (min-width:1024px){
+    .site-header {
+        justify-content: space-between;
+        h1 {
+            margin-bottom: 0;
+        }
+        .top-nav {
+            flex-basis: 50%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+    }
+    .top-link-text {
+        display: inline;
+        margin-left: 1rem;
+    }
+}
+
 .search {
     padding: 1rem;
 }
