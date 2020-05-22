@@ -198,20 +198,39 @@ the layout of the web pages*/
 }
 
 .search-form {
-  display: flex;
-  flex-flow: column nowrap;
   padding: 1rem;
 }
-.search-form label, .search-form input {
+.search-form label {
+  display: block;
   margin-bottom: 0.5em;
 }
+.search-form div {
+  display: flex;
+  flex-flow: column nowrap;
+}
 .search-form input {
-  padding: 0.5em;
+  flex-grow: 1;
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 1em;
 }
 .search-form button {
-  padding: 0.5em;
+  display: block;
+  padding: 1em 2em;
 }
 
+@media screen and (min-width: 768px) {
+  .search-container {
+    width: 75%;
+  }
+
+  .search-form div {
+    flex-flow: row nowrap;
+  }
+  .search-form input {
+    margin: 0;
+  }
+}
 .user-guide {
   padding: 3rem 1rem;
 }
@@ -256,6 +275,17 @@ the layout of the web pages*/
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .safety-info, .testimonies, .platforms {
+    flex-flow: row-reverse nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .safety-info h2, .safety-info p, .testimonies h2, .testimonies p, .platforms h2, .platforms p {
+    text-align: left;
+    padding-right: 2rem;
+  }
+}
 .site-footer {
   padding-top: 2rem;
 }
@@ -351,7 +381,7 @@ the layout of the web pages*/
   width: 100%;
   padding: 0.5rem;
 }
-.filter-form fieldset label, .filter-form fieldset .search-form input, .search-form .filter-form fieldset input {
+.filter-form fieldset label {
   line-height: 1.4rem;
 }
 .filter-form button {

@@ -59,23 +59,47 @@ the layout of the web pages*/
 }
 
 .search-form {
-    display: flex;
-    flex-flow: column nowrap;
     padding: 1rem;
 
     label {
+        display: block;
         margin-bottom: .5em;
     }
 
+    div {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
     input {
-        @extend label;
-        padding: .5em;
+        flex-grow: 1;
+        display: block;
+        margin-bottom: .5em;
+        padding: 1em;
+        
     }
 
     button {
-        padding: .5em;
+        display: block;
+        padding: 1em 2em;
     }
 }
+
+@media screen and (min-width:768px){
+    .search-container{
+        width: 75%;
+    }
+    .search-form {
+        div {
+            flex-flow: row nowrap;
+        }
+        input {
+            margin: 0;
+         
+        }
+    }
+}
+
 
 .user-guide {
     padding: 3rem 1rem;
@@ -126,6 +150,19 @@ the layout of the web pages*/
     p {
         text-align: center;
     }
+}
+
+@media screen and (min-width: 768px){
+    .safety-info, .testimonies, .platforms {
+        flex-flow: row-reverse nowrap;
+        align-items: flex-start;
+        justify-content: space-between; 
+        h2, p {
+            text-align: left;
+            padding-right: 2rem;
+        }
+    }
+    
 }
 
 .site-footer {
