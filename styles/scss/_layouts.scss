@@ -194,6 +194,7 @@ the layout of the web pages*/
         margin-bottom: 1rem;
         font-size: 1.2rem;
         text-align: center;
+        text-transform: uppercase;
     }
 }
 
@@ -218,5 +219,27 @@ the layout of the web pages*/
         width: 100%;
         padding: .5rem;
         margin-bottom: .5rem;
+    }
+}
+
+.search-result {
+    padding: 1rem;
+    h2 {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.result-card {
+    width: 100%;
+    margin-bottom: 2rem;
+    img {
+        width: inherit;
+        margin-bottom: 1rem;;
+    }
+    h3, p{
+        margin-bottom: 1rem;
     }
 }

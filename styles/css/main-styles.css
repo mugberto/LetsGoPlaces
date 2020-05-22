@@ -319,6 +319,7 @@ the layout of the web pages*/
   margin-bottom: 1rem;
   font-size: 1.2rem;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .filter-form {
@@ -343,6 +344,28 @@ the layout of the web pages*/
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.search-result {
+  padding: 1rem;
+}
+.search-result h2 {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.result-card {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.result-card img {
+  width: inherit;
+  margin-bottom: 1rem;
+}
+.result-card h3, .result-card p {
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main-styles.css.map */
