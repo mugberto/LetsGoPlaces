@@ -309,6 +309,7 @@ the layout of the web pages*/
 }
 .bottom-band .legal-info {
   font-size: 0.875rem;
+  text-align: center;
 }
 
 .result-filter {
@@ -357,15 +358,65 @@ the layout of the web pages*/
 }
 
 .result-card {
+  padding: 1rem;
   width: 100%;
   margin-bottom: 2rem;
 }
+.result-card .result-img-link {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
 .result-card img {
   width: inherit;
-  margin-bottom: 1rem;
 }
 .result-card h3, .result-card p {
   margin-bottom: 1rem;
+}
+
+.dest-detail {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2rem auto;
+}
+
+.article-content {
+  padding: 1rem;
+}
+.article-content h2 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.article-content p {
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+}
+.article-content img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.suggestions {
+  padding: 1rem;
+}
+.suggestions h3 {
+  margin-bottom: 1rem;
+}
+
+.suggestions-item {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.suggestions-item img {
+  width: 8rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.suggestions-item h4 {
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=main-styles.css.map */

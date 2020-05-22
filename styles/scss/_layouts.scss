@@ -184,6 +184,7 @@ the layout of the web pages*/
 
     .legal-info {
         font-size: .875rem;
+        text-align: center;
     }
 }
 
@@ -233,13 +234,68 @@ the layout of the web pages*/
 }
 
 .result-card {
+    padding: 1rem;
     width: 100%;
     margin-bottom: 2rem;
+    .result-img-link{
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;;
+    }
     img {
         width: inherit;
-        margin-bottom: 1rem;;
     }
     h3, p{
         margin-bottom: 1rem;
     }
+}
+
+.dest-detail {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 2rem auto;
+    
+}
+
+.article-content {
+    padding: 1rem;
+    h2{
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        line-height: 1.4rem;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+.suggestions {
+    padding: 1rem;
+    h3 {
+        margin-bottom: 1rem;
+    }
+
+}
+
+.suggestions-item {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem;
+    img{
+        width: 8rem;
+        height: 5rem;
+        object-fit: cover;
+    }
+    h4 {
+        padding: 1rem;
+    }
+    
 }
