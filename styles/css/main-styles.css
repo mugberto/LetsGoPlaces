@@ -164,6 +164,7 @@ the layout of the web pages*/
 .header-logo {
   width: 3rem;
   height: 3rem;
+  margin-right: 1rem;
   object-fit: fill;
   vertical-align: middle;
 }
