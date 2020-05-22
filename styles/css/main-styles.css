@@ -349,13 +349,10 @@ the layout of the web pages*/
   height: inherit;
 }
 
-.footer-nav {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
 .footer-nav .links-left, .footer-nav .links-right {
-  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 3rem;
   text-align: center;
   line-height: 1.4rem;
 }
@@ -382,23 +379,75 @@ the layout of the web pages*/
   margin-left: -5px;
 }
 
-.bottom-band {
+.bottom-band-in {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   padding: 1rem;
 }
-.bottom-band .social-channels {
+.bottom-band-in .social-channels {
   margin-bottom: 1rem;
 }
-.bottom-band .social-link {
+.bottom-band-in .social-link {
   margin: 0 0.3rem;
 }
-.bottom-band .legal-info {
+.bottom-band-in .legal-info {
   font-size: 0.875rem;
   text-align: center;
 }
 
+@media screen and (min-width: 1024px) {
+  .site-footer {
+    position: relative;
+    padding-top: 4rem;
+  }
+
+  .footer-logo {
+    position: absolute;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+  }
+
+  .footer-nav {
+    margin-bottom: 2rem;
+  }
+  .footer-nav .links-left, .footer-nav .links-right {
+    display: inline-block;
+    width: calc(50% - 4px);
+    padding: 1rem 3rem;
+    text-align: right;
+  }
+  .footer-nav .links-right {
+    text-align: left;
+  }
+  .footer-nav .footer-nav-link {
+    margin: 0 0.5rem;
+  }
+
+  .subscribe-contact-about {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  .subscribe-contact-about .subscribe, .subscribe-contact-about .contact, .subscribe-contact-about .about {
+    flex-basis: 25%;
+  }
+
+  .bottom-band-in {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .bottom-band-in .social-channels {
+    margin-bottom: 0;
+  }
+  .bottom-band-in .social-link {
+    margin: 0 0.3rem;
+  }
+  .bottom-band-in .legal-info {
+    text-align: right;
+  }
+}
 .result-filter {
   margin: 2rem auto;
   padding: 2rem;
