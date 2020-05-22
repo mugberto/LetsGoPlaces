@@ -121,6 +121,10 @@ the layout of the web pages*/
     }
 }
 
+.in-wrapper {
+    margin: 0 auto;
+    max-width: 1313px;
+}
 
 .user-guide {
     padding: 3rem 1rem;
@@ -158,8 +162,8 @@ the layout of the web pages*/
     }
 }
 
-.safety-info, .testimonies, .platforms {
-    padding: 1rem;
+.promo-space {
+    padding: 3rem 2rem;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -191,7 +195,7 @@ the layout of the web pages*/
 }
 
 @media screen and (min-width: 768px){
-    .safety-info, .testimonies, .platforms {
+    .promo-space {
         flex-flow: row-reverse nowrap;
         align-items: flex-start;
         justify-content: space-between; 

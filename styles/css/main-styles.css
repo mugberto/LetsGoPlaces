@@ -251,6 +251,11 @@ the layout of the web pages*/
     margin: 0;
   }
 }
+.in-wrapper {
+  margin: 0 auto;
+  max-width: 1313px;
+}
+
 .user-guide {
   padding: 3rem 1rem;
 }
@@ -282,46 +287,46 @@ the layout of the web pages*/
     flex-basis: 35%;
   }
 }
-.safety-info, .testimonies, .platforms {
-  padding: 1rem;
+.promo-space {
+  padding: 3rem 2rem;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
 }
-.safety-info img, .testimonies img, .platforms img {
+.promo-space img {
   width: 10rem;
   height: 10rem;
   object-fit: cover;
   border-radius: 50%;
   margin: 1rem;
 }
-.safety-info h2, .testimonies h2, .platforms h2 {
+.promo-space h2 {
   margin-bottom: 1rem;
   font-weight: bold;
   text-align: center;
 }
-.safety-info p, .testimonies p, .platforms p {
+.promo-space p {
   text-align: center;
   margin-bottom: 1rem;
 }
-.safety-info .msg, .testimonies .msg, .platforms .msg {
+.promo-space .msg {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 @media screen and (min-width: 768px) {
-  .safety-info, .testimonies, .platforms {
+  .promo-space {
     flex-flow: row-reverse nowrap;
     align-items: flex-start;
     justify-content: space-between;
   }
-  .safety-info h2, .safety-info p, .testimonies h2, .testimonies p, .platforms h2, .platforms p {
+  .promo-space h2, .promo-space p {
     text-align: left;
     padding-right: 2rem;
   }
-  .safety-info .msg, .testimonies .msg, .platforms .msg {
+  .promo-space .msg {
     align-items: flex-start;
   }
 }
