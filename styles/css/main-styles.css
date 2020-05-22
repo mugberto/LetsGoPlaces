@@ -273,6 +273,12 @@ the layout of the web pages*/
 }
 .safety-info p, .testimonies p, .platforms p {
   text-align: center;
+  margin-bottom: 1rem;
+}
+.safety-info .msg, .testimonies .msg, .platforms .msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -284,6 +290,9 @@ the layout of the web pages*/
   .safety-info h2, .safety-info p, .testimonies h2, .testimonies p, .platforms h2, .platforms p {
     text-align: left;
     padding-right: 2rem;
+  }
+  .safety-info .msg, .testimonies .msg, .platforms .msg {
+    align-items: flex-start;
   }
 }
 .site-footer {
@@ -370,6 +379,7 @@ the layout of the web pages*/
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
 }
 .filter-form fieldset {
   display: flex;
@@ -417,6 +427,28 @@ the layout of the web pages*/
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 768px) {
+  .filter-form {
+    flex-flow: row wrap;
+  }
+  .filter-form fieldset {
+    flex-basis: 20%;
+  }
+  .filter-form button {
+    flex-basis: 25%;
+    padding: 0.5rem;
+    margin: 0.1rem;
+  }
+
+  .search-result-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .search-result-container .result-card {
+    flex-basis: 20rem;
+  }
+}
 .dest-detail {
   display: flex;
   flex-flow: column nowrap;
