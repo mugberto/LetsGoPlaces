@@ -272,6 +272,16 @@ the layout of the web pages*/
   margin-bottom: 1rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .guide-items-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .guide-items-container .guide-item {
+    flex-basis: 35%;
+  }
+}
 .safety-info, .testimonies, .platforms {
   padding: 1rem;
   display: flex;
