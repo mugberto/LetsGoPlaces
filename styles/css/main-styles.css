@@ -311,4 +311,38 @@ the layout of the web pages*/
   font-size: 0.875rem;
 }
 
+.result-filter {
+  margin: 2rem auto;
+  padding: 2rem;
+}
+.result-filter h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.filter-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.filter-form fieldset {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.filter-form fieldset input, .filter-form fieldset select {
+  width: 100%;
+  padding: 0.5rem;
+}
+.filter-form fieldset label, .filter-form fieldset .search-form input, .search-form .filter-form fieldset input {
+  line-height: 1.4rem;
+}
+.filter-form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 /*# sourceMappingURL=main-styles.css.map */
