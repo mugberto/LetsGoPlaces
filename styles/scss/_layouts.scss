@@ -2,10 +2,10 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 3rem;
 
     h1 {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
     }
 
     .top-nav {
@@ -35,8 +35,13 @@
 @media screen and (min-width:768px){
     .site-header {
         flex-flow: row nowrap;
+        justify-content: space-between;
         h1 {
             margin-bottom: 0;
+        }
+        .top-nav {
+            flex-basis: 60%;
+            justify-content: space-between;
         }
     }
 }
@@ -51,7 +56,7 @@
             flex-basis: 50%;
             display: flex;
             flex-flow: row nowrap;
-            justify-content: space-around;
+            justify-content: space-between;
             width: 100%;
         }
 
@@ -505,4 +510,17 @@
         padding: 1rem;
     }
     
+}
+
+@media screen and (min-width: 1024px){
+    .dest-detail {
+        flex-flow: row nowrap;
+        .article-content{
+            flex-basis: 75%;
+        }
+        .suggestions {
+            margin-top: 5rem;
+            flex-basis: 25%;
+        }       
+    }
 }

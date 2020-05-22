@@ -146,10 +146,10 @@ table {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 3rem;
 }
 .site-header h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .site-header .top-nav {
   display: flex;
@@ -177,9 +177,14 @@ table {
 @media screen and (min-width: 768px) {
   .site-header {
     flex-flow: row nowrap;
+    justify-content: space-between;
   }
   .site-header h1 {
     margin-bottom: 0;
+  }
+  .site-header .top-nav {
+    flex-basis: 60%;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -193,7 +198,7 @@ table {
     flex-basis: 50%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
   }
 
@@ -598,6 +603,19 @@ table {
 }
 .suggestions-item h4 {
   padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .dest-detail {
+    flex-flow: row nowrap;
+  }
+  .dest-detail .article-content {
+    flex-basis: 75%;
+  }
+  .dest-detail .suggestions {
+    margin-top: 5rem;
+    flex-basis: 25%;
+  }
 }
 
 /*# sourceMappingURL=main-styles.css.map */
