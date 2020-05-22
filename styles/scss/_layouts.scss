@@ -1,7 +1,3 @@
-/* In this partial, Elements and containers are
-appropriately sized and positioned to create the 
-the layout of the web pages*/
-
 .site-header{
     display: flex;
     flex-flow: column nowrap;
@@ -410,10 +406,11 @@ the layout of the web pages*/
     .filter-form{
         flex-flow: row wrap;
         fieldset {
-            flex-basis: 20%;
+            flex-basis: 19%;
+            margin: 0.1rem;
         }
         button {
-            flex-basis: 25%;
+            flex-basis: 13%;
             padding: .5rem;
             margin: 0.1rem;
         }
@@ -430,6 +427,35 @@ the layout of the web pages*/
 
 
 }
+
+@media screen and (min-width: 1024px){
+    .filter-form{
+        align-items: flex-end;
+        fieldset {
+            flex-basis: 14%;
+            margin-bottom: 0;
+            margin: 0.1rem;
+
+        }
+        button {
+            flex-basis: 13%;
+            padding: .5rem;
+            margin: 0.1rem;
+        }
+
+    }
+    .search-result-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        .result-card {
+            flex-basis: 20rem;
+        }
+    }
+
+
+}
+
 
 .dest-detail {
     display: flex;

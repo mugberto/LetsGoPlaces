@@ -142,9 +142,6 @@ table {
   box-sizing: border-box;
 }
 
-/* In this partial, Elements and containers are
-appropriately sized and positioned to create the 
-the layout of the web pages*/
 .site-header {
   display: flex;
   flex-flow: column nowrap;
@@ -516,10 +513,35 @@ the layout of the web pages*/
     flex-flow: row wrap;
   }
   .filter-form fieldset {
-    flex-basis: 20%;
+    flex-basis: 19%;
+    margin: 0.1rem;
   }
   .filter-form button {
-    flex-basis: 25%;
+    flex-basis: 13%;
+    padding: 0.5rem;
+    margin: 0.1rem;
+  }
+
+  .search-result-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .search-result-container .result-card {
+    flex-basis: 20rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .filter-form {
+    align-items: flex-end;
+  }
+  .filter-form fieldset {
+    flex-basis: 14%;
+    margin-bottom: 0;
+    margin: 0.1rem;
+  }
+  .filter-form button {
+    flex-basis: 13%;
     padding: 0.5rem;
     margin: 0.1rem;
   }

@@ -42,58 +42,60 @@
     </header>
     <main>
       <section class="result-filter">
-        <h2>Filter by location name, terrain, interest, transport, distance</h2>
-        <form class="filter-form">
-          <fieldset>
-            <label for="input-loc">Location name</label>
-            <input type="text" name="location" id="input-loc" />
-          </fieldset>
-          <fieldset>
-            <label for="select-terr">Terrain</label>
-            <select name="terrain" id="select-terr">
-              <option value="">High mountains</option>
-              <option value="">Valleys</option>
-              <option value="">Lac</option>
-              <option value="">Rapids</option>
-            </select>
-          </fieldset>
-          <fieldset>
-            <label for="select-inter">Interest</label>
-            <select name="interest" id="select-inter">
-              <option value="">Wildlife</option>
-              <option value="">Hiking</option>
-              <option value="">Culture</option>
-              <option value="">Religious</option>
-            </select>
-          </fieldset>
-          <fieldset>
-            <label for="select-trans">Transport</label>
-            <select name="transport" id="select-trans">
-              <option value="">Bike</option>
-              <option value="">Safari</option>
-              <option value="">Walk</option>
-              <option value="">Bus</option>
-              <option value="">Train</option>
-              <option value="">Plane</option>
-            </select>
-          </fieldset>
-          <fieldset>
-            <label for="select-dist">Distance</label>
-            <select name="distance" id="select-dist">
-              <option value="5">5 Km</option>
-              <option value="20">20 Km</option>
-              <option value="50">50 Km</option>
-              <option value="100">+100 Km</option>
-            </select>
-          </fieldset>
-          <button type="submit" class="search-filter">Search</button>
-          <button type="button" class="clear-filter">Clear filter</button>
-        </form>
+        <div class="in-wrapper">
+          <h2>Filter by location name, terrain, interest, transport, distance</h2>
+          <form class="filter-form">
+            <fieldset>
+              <label for="input-loc">Location name</label>
+              <input type="text" name="location" id="input-loc" />
+            </fieldset>
+            <fieldset>
+              <label for="select-terr">Terrain</label>
+              <select name="terrain" id="select-terr">
+                <option value="">High mountains</option>
+                <option value="">Valleys</option>
+                <option value="">Lac</option>
+                <option value="">Rapids</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="select-inter">Interest</label>
+              <select name="interest" id="select-inter">
+                <option value="">Wildlife</option>
+                <option value="">Hiking</option>
+                <option value="">Culture</option>
+                <option value="">Religious</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="select-trans">Transport</label>
+              <select name="transport" id="select-trans">
+                <option value="">Bike</option>
+                <option value="">Safari</option>
+                <option value="">Walk</option>
+                <option value="">Bus</option>
+                <option value="">Train</option>
+                <option value="">Plane</option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label for="select-dist">Distance</label>
+              <select name="distance" id="select-dist">
+                <option value="5">5 Km</option>
+                <option value="20">20 Km</option>
+                <option value="50">50 Km</option>
+                <option value="100">+100 Km</option>
+              </select>
+            </fieldset>
+            <button type="submit" class="search-filter">Search</button>
+            <button type="button" class="clear-filter">Clear filter</button>
+          </form>
+        </div>
       </section>
 
       <section class="search-result">
         <h2>8 Destinations corresponds to your search input</h2>
-        <div class="search-result-container">
+        <div class="search-result-container in-wrapper">
           <article class="result-card">
             <a href="./place.html" class="result-img-link">
               <img
