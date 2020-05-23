@@ -92,6 +92,7 @@ video {
   font-style: inherit;
   font-variant: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -271,11 +272,9 @@ table {
 }
 .user-guide article span {
   display: block;
-  font-size: 2rem;
   margin-bottom: 1rem;
 }
 .user-guide article h3 {
-  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -305,7 +304,6 @@ table {
 }
 .promo-space h2 {
   margin-bottom: 1rem;
-  font-weight: bold;
   text-align: center;
 }
 .promo-space p {
@@ -394,7 +392,6 @@ table {
   margin: 0 0.3rem;
 }
 .bottom-band-in .legal-info {
-  font-size: 0.875rem;
   text-align: center;
 }
 
@@ -456,7 +453,6 @@ table {
 }
 .result-filter h2 {
   margin-bottom: 1rem;
-  font-size: 1.2rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -491,7 +487,6 @@ table {
 }
 .search-result h2 {
   margin-bottom: 2rem;
-  font-size: 1.2rem;
   text-align: center;
   text-transform: uppercase;
 }
