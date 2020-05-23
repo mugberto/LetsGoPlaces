@@ -1,0 +1,18 @@
+// Value assignment to variables
+
+$brand-name-type-color: #19a054;
+$top-header-bg-color: #D35648;
+$top-nav-links-font-color: #f4f5f6;
+
+
+// appliction of values
+
+.site-header {
+    background-color: $top-header-bg-color;
+    .top-links, .top-more-links{
+        color: $top-nav-links-font-color;
+    }    
+    .home-link{
+        color: $brand-name-type-color;
+    }
+}

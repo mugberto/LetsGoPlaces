@@ -175,6 +175,12 @@ table {
   display: none;
 }
 
+.top-more-links {
+  border: none;
+  background: none;
+  padding: 0;
+}
+
 @media screen and (min-width: 768px) {
   .site-header {
     flex-flow: row nowrap;
@@ -611,6 +617,25 @@ table {
     margin-top: 5rem;
     flex-basis: 25%;
   }
+}
+.site-header h1 {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+}
+.site-header .top-links, .site-header .top-more-links {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+
+.site-header {
+  background-color: #D35648;
+}
+.site-header .top-links, .site-header .top-more-links {
+  color: #f4f5f6;
+}
+.site-header .home-link {
+  color: #19a054;
 }
 
 /*# sourceMappingURL=main-styles.css.map */
