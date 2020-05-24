@@ -3,20 +3,41 @@
 $brand-name-size: 2rem;
 $brand-name-type-family: 'Lobster', cursive;
 $menu-links-size: 1rem;
-$menu-links-type-family: 'Noto Sans', sans-serif;
-$menu-links-type-face: bold;
+$main-type-family: 'Noto Sans', sans-serif;
+$heading-type-face: bold;
+$heading-type-size-1: 1.6rem;
+$button-type-size: 1rem ;
 
 // application of values
 
-.site-header {
-    h1{
-        font-size: $brand-name-size;
-        font-family: $brand-name-type-family;
-    }
 
-    .top-links, .top-more-links {
-        font-size: $menu-links-size;
-        font-family: $menu-links-type-family;
-        font-weight: $menu-links-type-face;
-    }
+%home-link-typo {
+    font-size: $brand-name-size;
+    font-family: $brand-name-type-family;
+}
+
+%top-links-typo {
+    font-size: $menu-links-size;
+    font-family: $main-type-family;
+    font-weight: $heading-type-face;
+}
+
+
+%search-typo {
+    font-size: $heading-type-size-1;
+    font-family: $main-type-family;
+    font-weight: $heading-type-face;
+}
+
+%search-form-typo {
+    font-family: $main-type-family;
+    font-size: $button-type-size;
+    font-weight: bold;
+}
+
+%search-btn-typo {
+    font-family: $main-type-family;
+    font-size: $button-type-size;
+    font-weight: bold;
+
 }

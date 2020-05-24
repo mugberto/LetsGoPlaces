@@ -143,6 +143,64 @@ table {
   box-sizing: border-box;
 }
 
+.site-header .home-link {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+}
+
+.site-header .top-links, .site-header .top-more-links {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+
+.search .search-container h2 {
+  font-size: 1.6rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+}
+
+.search .search-form {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.search .search-form button {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.site-header {
+  background-color: #D35648;
+}
+
+.site-header .home-link {
+  color: #19a054;
+}
+
+.site-header .top-links, .site-header .top-more-links {
+  color: #f4f5f6;
+}
+
+.search {
+  background-image: url("../../images/locations/Rwanda-Volcanoes-kwitizina.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #f4f5f6;
+}
+
+.search .search-form {
+  background-color: #fff8;
+  color: #010101;
+}
+
+.search .search-form button {
+  background-color: #D35648;
+  color: #f4f5f6;
+}
+
 .site-header {
   display: flex;
   flex-flow: column nowrap;
@@ -152,33 +210,30 @@ table {
 .site-header h1 {
   margin-bottom: 2rem;
 }
-.site-header .top-nav {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.header-logo {
+.site-header .header-logo {
   width: 3rem;
   height: 3rem;
   margin-right: 1rem;
   object-fit: fill;
   vertical-align: middle;
 }
-
-.home-link {
+.site-header .home-link {
   white-space: nowrap;
 }
-
-.top-link-text {
+.site-header .top-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.site-header .top-link-text {
   display: none;
 }
-
-.top-more-links {
+.site-header .top-more-links {
   border: none;
   background: none;
   padding: 0;
+  line-height: 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -208,8 +263,7 @@ table {
     justify-content: space-between;
     width: 100%;
   }
-
-  .top-link-text {
+  .site-header .top-link-text {
     display: inline;
     margin-left: 1rem;
   }
@@ -217,46 +271,47 @@ table {
 .search {
   padding: 1rem;
 }
-
-.search-container {
+.search .search-container {
   margin: 10rem auto;
 }
-.search-container h2 {
+.search .search-container h2 {
   margin-bottom: 1rem;
   text-align: center;
 }
-
-.search-form {
+.search .search-form {
   padding: 1rem;
+  border-radius: 5px;
 }
-.search-form label {
+.search .search-form label {
   display: block;
   margin-bottom: 0.5em;
 }
-.search-form div {
+.search .search-form div {
   display: flex;
   flex-flow: column nowrap;
 }
-.search-form input {
+.search .search-form input {
   flex-grow: 1;
   display: block;
   margin-bottom: 0.5em;
-  padding: 1em;
+  padding: 0.8em;
 }
-.search-form button {
+.search .search-form button {
   display: block;
-  padding: 1em 2em;
+  padding: 0.8em 2em;
 }
 
 @media screen and (min-width: 768px) {
-  .search-container {
+  .search .search-container {
     width: 75%;
   }
-
-  .search-form div {
+  .search .search-form {
+    padding: 2rem;
+  }
+  .search .search-form div {
     flex-flow: row nowrap;
   }
-  .search-form input {
+  .search .search-form input {
     margin: 0;
   }
 }
@@ -617,25 +672,6 @@ table {
     margin-top: 5rem;
     flex-basis: 25%;
   }
-}
-.site-header h1 {
-  font-size: 2rem;
-  font-family: "Lobster", cursive;
-}
-.site-header .top-links, .site-header .top-more-links {
-  font-size: 1rem;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: bold;
-}
-
-.site-header {
-  background-color: #D35648;
-}
-.site-header .top-links, .site-header .top-more-links {
-  color: #f4f5f6;
-}
-.site-header .home-link {
-  color: #19a054;
 }
 
 /*# sourceMappingURL=main-styles.css.map */

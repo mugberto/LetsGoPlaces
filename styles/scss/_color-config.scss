@@ -1,18 +1,64 @@
+@use "sass:string" as string;
+
 // Value assignment to variables
 
 $brand-name-type-color: #19a054;
-$top-header-bg-color: #D35648;
-$top-nav-links-font-color: #f4f5f6;
+$site-header-bg-color: #D35648;
+$site-footer-bg-color: #010101;
+$nav-links-font-color: #f4f5f6;
+$search-area-bg-image: url('../../images/locations/Rwanda-Volcanoes-kwitizina.jpg');
+$search-form-bg-color: #fff8;
+$search-btn-bg-color: #D35648;
 
 
 // appliction of values
 
-.site-header {
-    background-color: $top-header-bg-color;
-    .top-links, .top-more-links{
-        color: $top-nav-links-font-color;
-    }    
-    .home-link{
-        color: $brand-name-type-color;
+@mixin text-color($bg, $parent: "p") {
+    @if $bg == $site-header-bg-color {
+        color: #f4f5f6;
     }
+    @else if $bg == $site-footer-bg-color {
+        color: #f4f5f6;
+    }
+    @else if $bg == $search-form-bg-color {
+            color: #010101;
+    }
+    @else if $bg == $search-area-bg-image {
+        color: #f4f5f6;
+    }
+    @else if $bg == $search-btn-bg-color {
+        color:  #f4f5f6;
+    }
+    @else {
+        color: #0000;
+    }
+}
+
+%header-bg-color { 
+    background-color: $site-header-bg-color;
+}
+
+%home-link-color{
+    color: $brand-name-type-color;
+}
+
+%top-links-color {
+    @include text-color($site-header-bg-color, &);
+}    
+
+%search-color {
+    background-image: $search-area-bg-image;
+    background-position: center;
+    background-size: cover;
+    @include text-color($search-area-bg-image, );
+}
+
+%search-form-color {
+    background-color: $search-form-bg-color;
+    @include text-color($search-form-bg-color, );
+}
+
+%search-button-color {
+    background-color: $search-btn-bg-color;
+    @include text-color($search-btn-bg-color, );
 }
