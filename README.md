@@ -1,6 +1,6 @@
 # LetsGoPlaces
 
-This project is about creating a directory of nature attraction destination for nature lovers.
+This project is about creating a directory of nature attraction destinations for nature lovers.
 User can search for a place they want to visit and get more information. If they have not made up their mind yet,
 they can use keywords and get a lot of suggestions that will help them choose.
 
