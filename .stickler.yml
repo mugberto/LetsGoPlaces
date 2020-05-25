@@ -5,7 +5,12 @@ linters:
     config: "stylelint.config.js"
 files:
   ignore:
-    - "styles/scss/"
+    - "styles/scss/main-styles.scss"
+    - "styles/scss/_base.scss"
+    - "styles/scss/_color-config.scss"
+    - "styles/scss/_typo-config.scss"
+    - "styles/scss/_layouts.scss"
+    - "styles/scss/_widgets.scss"
     #For ignoring a file/folder
 # PLEASE DO NOT enable auto fixing options
 # if you need extra support from you linter - do it in your local env as described in README for this config
