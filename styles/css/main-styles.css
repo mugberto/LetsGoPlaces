@@ -214,6 +214,24 @@ table {
   line-height: 1.4;
 }
 
+.result-filter h2, .search-result h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.result-card h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.filter-form fieldset label, .result-card p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
 .site-header {
   background-color: #D35648;
 }
@@ -289,6 +307,14 @@ table {
 
 .bottom-band {
   background-color: #171717;
+}
+
+.result-filter h2, .search-result h2 {
+  color: #848586;
+}
+
+.result-card p {
+  color: #343536;
 }
 
 .site-header {
@@ -648,7 +674,8 @@ table {
 .result-card {
   padding: 1rem;
   width: 100%;
-  margin-bottom: 2rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
 }
 .result-card .result-img-link {
   display: block;
@@ -661,7 +688,6 @@ table {
 .result-card h3, .result-card p {
   margin-bottom: 1rem;
 }
-
 @media screen and (min-width: 768px) {
   .filter-form {
     flex-flow: row wrap;

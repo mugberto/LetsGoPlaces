@@ -424,6 +424,8 @@
         margin-bottom: 1rem;
         text-align: center;
         text-transform: uppercase;
+        @extend %section-heading-typo;
+        @extend %section-heading-type-color;
     }
 }
 
@@ -442,6 +444,7 @@
             padding: .5rem;
         }
         label {
+            @extend %article-para-typo;
             line-height: 1.4rem;
         }
     }
@@ -458,13 +461,17 @@
         margin-bottom: 2rem;
         text-align: center;
         text-transform: uppercase;
+        @extend %section-heading-typo;
+        @extend %section-heading-type-color;
     }
 }
 
 .result-card {
     padding: 1rem;
     width: 100%;
-    margin-bottom: 2rem;
+    margin: .5rem;
+    border: 1px solid #ccc;
+
     .result-img-link{
         display: block;
         width: 100%;
@@ -475,6 +482,13 @@
     }
     h3, p{
         margin-bottom: 1rem;
+    }
+    h3{
+        @extend %article-heading-typo;
+    }
+    p{
+        @extend %article-para-typo;
+        @extend %article-para-type-color;
     }
 }
 

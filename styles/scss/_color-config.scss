@@ -17,6 +17,8 @@ $safety-info-bg-color: #E17E64;
 $testimonies-bg-color: #98A4A5;
 $platforms-bg-color: #519BD7;
 $bottom-band-bg-color: #171717;
+$section-heading-type-color: #848586;
+$article-para-type-color: #343536;
 
 
 // appliction of values
@@ -118,4 +120,12 @@ $bottom-band-bg-color: #171717;
 
 %bottom-band-bg-color {
     background-color: $bottom-band-bg-color;
+}
+
+%section-heading-type-color{
+    color: $section-heading-type-color
+}
+
+%article-para-type-color {
+    color: $article-para-type-color;
 }

@@ -86,3 +86,21 @@ $button-type-size: 1rem ;
     font-size: $para-type-size-1;
     line-height: 1.4;
 }
+
+%section-heading-typo {
+    font-family: $main-type-family;
+    font-size: $heading-type-size-2;
+    font-weight: bold;
+}
+
+%article-heading-typo {
+    font-family: $main-type-family;
+    font-size: $heading-type-size-3;
+    font-weight: bold;
+}
+
+%article-para-typo {
+    font-family: $main-type-family;
+    font-size: $para-type-size-1;
+    line-height: 1.4;
+}
