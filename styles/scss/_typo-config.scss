@@ -1,106 +1,104 @@
-// variable assignment 
+// variable assignment
 
 $brand-name-size: 2rem;
-$brand-name-type-family: 'Lobster', cursive;
+$brand-name-type-family: "Lobster", cursive;
 $menu-links-size: 1rem;
-$main-type-family: 'Noto Sans', sans-serif;
+$main-type-family: "Noto Sans", sans-serif;
 $heading-type-face: bold;
 $heading-type-size-1: 1.6rem;
 $heading-type-size-2: 1.4rem;
 $heading-type-size-3: 1.2rem;
 $heading-type-size-4: 1rem;
 $para-type-size-1: 0.875rem;
-$button-type-size: 1rem ;
+$button-type-size: 1rem;
 
 // application of values
 
 %home-link-typo {
-    font-size: $brand-name-size;
-    font-family: $brand-name-type-family;
+  font-size: $brand-name-size;
+  font-family: $brand-name-type-family;
 }
 
 %top-links-typo {
-    font-size: $menu-links-size;
-    font-family: $main-type-family;
-    font-weight: $heading-type-face;
+  font-size: $menu-links-size;
+  font-family: $main-type-family;
+  font-weight: $heading-type-face;
 }
 
-
 %search-typo {
-    font-size: $heading-type-size-1;
-    font-family: $main-type-family;
-    font-weight: $heading-type-face;
+  font-size: $heading-type-size-1;
+  font-family: $main-type-family;
+  font-weight: $heading-type-face;
 }
 
 %search-form-typo {
-    font-family: $main-type-family;
-    font-size: $button-type-size;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $button-type-size;
+  font-weight: bold;
 }
 
 %search-btn-typo {
-    font-family: $main-type-family;
-    font-size: $button-type-size;
-    font-weight: bold;
-
+  font-family: $main-type-family;
+  font-size: $button-type-size;
+  font-weight: bold;
 }
 
 %user-guide-h2-typo {
-    font-family: $main-type-family;
-    font-size: $heading-type-size-2;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $heading-type-size-2;
+  font-weight: bold;
 }
 
 %user-guide-h3-typo {
-    font-family: $main-type-family;
-    font-size: $heading-type-size-3;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $heading-type-size-3;
+  font-weight: bold;
 }
 
 %user-guide-p-typo {
-    font-family: $main-type-family;
-    font-size: $para-type-size-1;
-    line-height: 1.4;
+  font-family: $main-type-family;
+  font-size: $para-type-size-1;
+  line-height: 1.4;
 }
 
 %prome-space-h2-typo {
-    font-family: $main-type-family;
-    font-size: $heading-type-size-4;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $heading-type-size-4;
+  font-weight: bold;
 }
 
 %prome-space-p-typo {
-    font-family: $main-type-family;
-    font-size: $para-type-size-1;
-    line-height: 1.4;
+  font-family: $main-type-family;
+  font-size: $para-type-size-1;
+  line-height: 1.4;
 }
 
 %site-footer-h3-typo {
-    font-family: $main-type-family;
-    font-size: $heading-type-size-4;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $heading-type-size-4;
+  font-weight: bold;
 }
 
 %site-footer-para-typo {
-    font-family: $main-type-family;
-    font-size: $para-type-size-1;
-    line-height: 1.4;
+  font-family: $main-type-family;
+  font-size: $para-type-size-1;
+  line-height: 1.4;
 }
 
 %section-heading-typo {
-    font-family: $main-type-family;
-    font-size: $heading-type-size-2;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $heading-type-size-2;
+  font-weight: bold;
 }
 
 %article-heading-typo {
-    font-family: $main-type-family;
-    font-size: $heading-type-size-3;
-    font-weight: bold;
+  font-family: $main-type-family;
+  font-size: $heading-type-size-3;
+  font-weight: bold;
 }
 
 %article-para-typo {
-    font-family: $main-type-family;
-    font-size: $para-type-size-1;
-    line-height: 1.4;
+  font-family: $main-type-family;
+  font-size: $para-type-size-1;
+  line-height: 1.4;
 }
