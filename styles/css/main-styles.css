@@ -146,96 +146,151 @@ table {
 .site-header .home-link {
   font-size: 2rem;
   font-family: "Lobster", cursive;
+  color: #19a054;
 }
 
-.site-header .top-links, .site-header .top-more-links, .footer-nav .footer-nav-link {
+.site-header .top-links,
+.site-header .top-more-links,
+.footer-nav .footer-nav-link {
   font-size: 1rem;
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
-}
-
-.search .search-container h2 {
-  font-size: 1.6rem;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: bold;
-}
-
-.search .search-form {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
+  color: #f4f5f6;
 }
 
 .user-guide h2 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
-}
-
-.user-guide h3 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.user-guide p {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 0.875rem;
-  line-height: 1.4;
+  color: #d35648;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 .promo-space h2 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.result-filter h2,
+.search-result h2,
+.article-content h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.result-filter h2,
+.search-result h2 {
+  color: #848586;
+}
+
+.result-filter h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search-result h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dest-detail h2 {
+  display: none;
+}
+
+.search .search-container h2 {
+  font-size: 1.6rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.search-form {
+  background-color: #fff8;
+  color: #010101;
+}
+
+.search .search-form {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.user-guide h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #010101;
+  margin-bottom: 1rem;
+}
+
+.user-guide p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #444;
 }
 
 .promo-space p {
   font-family: "Noto Sans", sans-serif;
   font-size: 0.875rem;
   line-height: 1.4;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.subscribe h3, .contact h3, .about h3 {
+.subscribe h3,
+.contact h3,
+.about h3 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1rem;
   font-weight: bold;
+  color: #f4f5f6;
+  margin-bottom: 1rem;
 }
 
-.subscribe p, .contact p, .about p, .bottom-band-in .social-link, .bottom-band-in .legal-info {
+.subscribe p,
+.contact p,
+.about p,
+.bottom-band-in .social-link,
+.bottom-band-in .legal-info {
   font-family: "Noto Sans", sans-serif;
   font-size: 0.875rem;
   line-height: 1.4;
+  color: #848586;
 }
 
-.result-filter h2, .search-result h2, .article-content h3 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.4rem;
-  font-weight: bold;
-}
-
-.result-card h3, .suggestions h3 {
+.result-card h3,
+.suggestions h3 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.filter-form fieldset label, .result-card p, .article-content p, .suggestions-item h4 {
+.filter-form fieldset label,
+.result-card p,
+.article-content p,
+.suggestions-item h4 {
   font-family: "Noto Sans", sans-serif;
   font-size: 0.875rem;
   line-height: 1.4;
 }
 
 .site-header {
-  background-color: #D35648;
-}
-
-.site-header .home-link {
-  color: #19a054;
-}
-
-.site-header .top-links, .site-header .top-more-links, .footer-nav .footer-nav-link {
-  color: #f4f5f6;
+  background-color: #d35648;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1rem 3rem;
 }
 
 .search {
@@ -243,78 +298,54 @@ table {
   background-position: center;
   background-size: cover;
   color: #f4f5f6;
-}
-
-.search .search-form {
-  background-color: #fff8;
-  color: #010101;
-}
-
-.user-guide h2 {
-  color: #D35648;
-}
-
-.user-guide h3 {
-  color: #010101;
+  padding: 1rem;
 }
 
 .user-guide span {
   color: #010101;
-}
-
-.user-guide p {
-  color: #444;
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .safety-info {
-  background-color: #E17E64;
+  background-color: #e17e64;
 }
 
 .testimonies {
-  background-color: #98A4A5;
+  background-color: #98a4a5;
 }
 
 .platforms {
-  background-color: #519BD7;
+  background-color: #519bd7;
 }
 
 .promo-space {
   color: #f4f5f6;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .site-footer {
   background-color: #010101;
-}
-
-.subscribe h3, .contact h3, .about h3 {
-  color: #f4f5f6;
-}
-
-.subscribe p, .contact p, .about p, .bottom-band-in .social-link, .bottom-band-in .legal-info {
-  color: #848586;
+  padding-top: 2rem;
 }
 
 .bottom-band {
   background-color: #171717;
 }
 
-.result-filter h2, .search-result h2 {
-  color: #848586;
-}
-
 .result-card p {
   color: #343536;
 }
 
-.site-header {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  padding: 1rem 3rem;
-}
 .site-header h1 {
   margin-bottom: 2rem;
 }
+
 .site-header .header-logo {
   width: 3rem;
   height: 3rem;
@@ -322,18 +353,18 @@ table {
   object-fit: fill;
   vertical-align: middle;
 }
-.site-header .home-link {
-  white-space: nowrap;
-}
+
 .site-header .top-nav {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
   width: 100%;
 }
+
 .site-header .top-link-text {
   display: none;
 }
+
 .site-header .top-more-links {
   border: none;
   background: none;
@@ -346,21 +377,26 @@ table {
     flex-flow: row nowrap;
     justify-content: space-between;
   }
+
   .site-header h1 {
     margin-bottom: 0;
   }
+
   .site-header .top-nav {
     flex-basis: 60%;
     justify-content: space-between;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .site-header {
     justify-content: space-between;
   }
+
   .site-header h1 {
     margin-bottom: 0;
   }
+
   .site-header .top-nav {
     flex-basis: 50%;
     display: flex;
@@ -368,39 +404,44 @@ table {
     justify-content: space-between;
     width: 100%;
   }
+
   .site-header .top-link-text {
     display: inline;
     margin-left: 1rem;
   }
 }
-.search {
-  padding: 1rem;
-}
+
 .search .search-container {
   margin: 10rem auto;
 }
-.search .search-container h2 {
-  margin-bottom: 1rem;
-  text-align: center;
+
+.footer-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
+
 .search .search-container a {
   position: relative;
   margin-top: 4rem;
   left: 50%;
   transform: translateX(-50%);
 }
-.search .search-form {
-  padding: 1rem;
-  border-radius: 5px;
+
+.filter-form fieldset label {
+  line-height: 1.4rem;
 }
+
 .search .search-form label {
   display: block;
   margin-bottom: 0.5em;
 }
+
 .search .search-form div {
   display: flex;
   flex-flow: column nowrap;
 }
+
 .search .search-form input {
   flex-grow: 1;
   display: block;
@@ -412,16 +453,20 @@ table {
   .search .search-container {
     width: 75%;
   }
+
   .search .search-form {
     padding: 2rem;
   }
+
   .search .search-form div {
     flex-flow: row nowrap;
   }
+
   .search .search-form input {
     margin: 0;
   }
 }
+
 .in-wrapper {
   margin: 0 auto;
   max-width: 1313px;
@@ -430,18 +475,7 @@ table {
 .user-guide {
   padding: 3rem 1rem;
 }
-.user-guide h2 {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.user-guide span {
-  display: block;
-  margin-bottom: 1rem;
-  font-size: 2rem;
-}
-.user-guide h3 {
-  margin-bottom: 1rem;
-}
+
 .user-guide article {
   padding: 2rem;
   text-align: center;
@@ -453,17 +487,12 @@ table {
     flex-flow: row wrap;
     justify-content: space-around;
   }
+
   .guide-items-container .guide-item {
     flex-basis: 35%;
   }
 }
-.promo-space {
-  padding: 3rem 2rem;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
-}
+
 .promo-space img {
   width: 10rem;
   height: 10rem;
@@ -471,14 +500,7 @@ table {
   border-radius: 50%;
   margin: 1rem;
 }
-.promo-space h2 {
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.promo-space p {
-  text-align: center;
-  margin-bottom: 1rem;
-}
+
 .promo-space .msg {
   display: flex;
   flex-direction: column;
@@ -491,16 +513,16 @@ table {
     align-items: flex-start;
     justify-content: space-between;
   }
-  .promo-space h2, .promo-space p {
+
+  .promo-space h2,
+  .promo-space p {
     text-align: left;
     padding-right: 2rem;
   }
+
   .promo-space .msg {
     align-items: flex-start;
   }
-}
-.site-footer {
-  padding-top: 2rem;
 }
 
 .footer-logo {
@@ -508,18 +530,15 @@ table {
   width: 5rem;
   height: 5rem;
 }
-.footer-logo a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
+
 .footer-logo img {
   width: inherit;
   height: inherit;
   filter: grayscale(100%);
 }
 
-.footer-nav .links-left, .footer-nav .links-right {
+.footer-nav .links-left,
+.footer-nav .links-right {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -527,9 +546,11 @@ table {
   text-align: center;
   line-height: 1.4rem;
 }
+
 .footer-nav .links-right {
   display: none;
 }
+
 .footer-nav .footer-nav-link {
   margin: 0 0.5rem;
 }
@@ -539,14 +560,16 @@ table {
   flex-flow: column nowrap;
 }
 
-.subscribe, .contact, .about {
+.subscribe,
+.contact,
+.about {
   padding: 1rem;
   text-align: center;
 }
-.subscribe h3, .contact h3, .about h3 {
-  margin-bottom: 1rem;
-}
-.subscribe button, .contact button, .about button {
+
+.subscribe button,
+.contact button,
+.about button {
   margin-left: -5px;
 }
 
@@ -561,12 +584,15 @@ table {
   align-items: center;
   padding: 1rem;
 }
+
 .bottom-band-in .social-channels {
   margin-bottom: 1rem;
 }
+
 .bottom-band-in .social-link {
   margin: 0 0.3rem;
 }
+
 .bottom-band-in .legal-info {
   text-align: center;
   font-size: 0.7rem;
@@ -588,15 +614,19 @@ table {
   .footer-nav {
     margin-bottom: 2rem;
   }
-  .footer-nav .links-left, .footer-nav .links-right {
+
+  .footer-nav .links-left,
+  .footer-nav .links-right {
     display: inline-block;
     width: calc(50% - 4px);
     padding: 1rem 3rem;
     text-align: right;
   }
+
   .footer-nav .links-right {
     text-align: left;
   }
+
   .footer-nav .footer-nav-link {
     margin: 0 0.5rem;
   }
@@ -605,7 +635,10 @@ table {
     flex-flow: row nowrap;
     justify-content: space-around;
   }
-  .subscribe-contact-about .subscribe, .subscribe-contact-about .contact, .subscribe-contact-about .about {
+
+  .subscribe-contact-about .subscribe,
+  .subscribe-contact-about .contact,
+  .subscribe-contact-about .about {
     flex-basis: 25%;
   }
 
@@ -614,24 +647,23 @@ table {
     flex-flow: row nowrap;
     justify-content: space-between;
   }
+
   .bottom-band-in .social-channels {
     margin-bottom: 0;
   }
+
   .bottom-band-in .social-link {
     margin: 0 0.3rem;
   }
+
   .bottom-band-in .legal-info {
     text-align: right;
   }
 }
+
 .result-filter {
   margin: 2rem auto;
   padding: 2rem;
-}
-.result-filter h2 {
-  margin-bottom: 1rem;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .filter-form {
@@ -640,15 +672,14 @@ table {
   align-items: center;
   justify-content: center;
 }
+
 .filter-form fieldset {
   display: flex;
   flex-flow: column nowrap;
   width: 100%;
   margin-bottom: 0.5rem;
 }
-.filter-form fieldset label {
-  line-height: 1.4rem;
-}
+
 .filter-form button {
   width: 100%;
   padding: 0.5rem;
@@ -658,11 +689,6 @@ table {
 .search-result {
   padding: 1rem;
 }
-.search-result h2 {
-  margin-bottom: 2rem;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 .result-card {
   padding: 1rem;
@@ -670,25 +696,32 @@ table {
   margin: 0.5rem;
   border: 1px solid #ccc;
 }
+
 .result-card .result-img-link {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
 }
+
 .result-card img {
   width: inherit;
 }
-.result-card h3, .result-card p {
+
+.result-card h3,
+.result-card p {
   margin-bottom: 1rem;
 }
+
 @media screen and (min-width: 768px) {
   .filter-form {
     flex-flow: row wrap;
   }
+
   .filter-form fieldset {
     flex-basis: 19%;
     margin: 0.1rem;
   }
+
   .filter-form button {
     flex-basis: 13%;
     padding: 0.5rem;
@@ -700,19 +733,22 @@ table {
     flex-flow: row wrap;
     justify-content: center;
   }
+
   .search-result-container .result-card {
     flex-basis: 20rem;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .filter-form {
     align-items: flex-end;
   }
+
   .filter-form fieldset {
     flex-basis: 14%;
-    margin-bottom: 0;
-    margin: 0.1rem;
+    margin: 0 0.1rem;
   }
+
   .filter-form button {
     flex-basis: 13%;
     padding: 0.5rem;
@@ -724,32 +760,34 @@ table {
     flex-flow: row wrap;
     justify-content: center;
   }
+
   .search-result-container .result-card {
     flex-basis: 20rem;
   }
 }
+
 .dest-detail {
   display: flex;
   flex-flow: column nowrap;
   margin: 2rem auto;
 }
-.dest-detail h2 {
-  display: none;
-}
 
 .article-content {
   padding: 1rem;
 }
+
 .article-content h3 {
   margin-bottom: 1rem;
   text-transform: uppercase;
   padding-left: 2rem;
 }
+
 .article-content p {
   line-height: 1.4rem;
   margin-bottom: 1rem;
   padding: 3rem 10rem 3rem 2rem;
 }
+
 .article-content img {
   width: 100%;
   margin-bottom: 1rem;
@@ -758,6 +796,7 @@ table {
 .suggestions {
   padding: 1rem;
 }
+
 .suggestions h3 {
   margin-bottom: 1rem;
   font-size: 1rem;
@@ -770,11 +809,13 @@ table {
   align-items: center;
   margin-bottom: 1rem;
 }
+
 .suggestions-item img {
   width: 8rem;
   height: 5rem;
   object-fit: cover;
 }
+
 .suggestions-item h4 {
   padding: 1rem;
 }
@@ -783,14 +824,17 @@ table {
   .dest-detail {
     flex-flow: row nowrap;
   }
+
   .dest-detail .article-content {
     flex-basis: 75%;
   }
+
   .dest-detail .suggestions {
     margin-top: 5rem;
     flex-basis: 25%;
   }
 }
+
 .btn {
   display: inline-block;
   line-height: 1;
@@ -803,7 +847,7 @@ table {
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   padding: 0.5em 1em;
-  background-color: #D35648;
+  background-color: #d35648;
   color: #f4f5f6;
 }
 
@@ -812,7 +856,7 @@ table {
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   padding: 0.5em 1em;
-  background-color: #2C6CAA;
+  background-color: #2c6caa;
   color: #f4f5f6;
 }
 
@@ -821,13 +865,7 @@ table {
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
   padding: 0.5em 1em;
-  background-color: #E5AC5A;
-  color: #f4f5f6;
-}
-
-.btn-reset-yellow {
-  padding: 0.5em 1em;
-  background-color: #E5AC5A;
+  background-color: #e5ac5a;
   color: #f4f5f6;
 }
 
@@ -844,7 +882,7 @@ table {
   font-family: "Noto Sans", sans-serif;
   padding: 0.5em 1em;
   background-color: #f4f5f6;
-  color: #E17E64;
+  color: #e17e64;
 }
 
 .btn-link-3 {
@@ -852,14 +890,14 @@ table {
   font-family: "Noto Sans", sans-serif;
   padding: 0.5em 1em;
   background-color: #f4f5f6;
-  color: #98A4A5;
+  color: #98a4a5;
 }
 
 .btn-link-4 {
   font-size: 0.875rem;
   font-family: "Noto Sans", sans-serif;
   padding: 0.5em 1em;
-  background-color: #519BD7;
+  background-color: #519bd7;
   color: #f4f5f6;
 }
 
@@ -875,7 +913,7 @@ table {
 .p-link {
   font-family: "Noto Sans", sans-serif;
   font-size: inherit;
-  color: #D35648;
+  color: #d35648;
 }
 
 .inpt {
