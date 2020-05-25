@@ -208,7 +208,7 @@ table {
   line-height: 1.4;
 }
 
-.result-filter h2, .search-result h2, .article-content h2 {
+.result-filter h2, .search-result h2, .article-content h3 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
@@ -733,11 +733,14 @@ table {
   flex-flow: column nowrap;
   margin: 2rem auto;
 }
+.dest-detail h2 {
+  display: none;
+}
 
 .article-content {
   padding: 1rem;
 }
-.article-content h2 {
+.article-content h3 {
   margin-bottom: 1rem;
   text-transform: uppercase;
   padding-left: 2rem;
