@@ -268,6 +268,7 @@
 
 .site-footer {
     padding-top: 2rem;
+    @extend %site-footer-bg-color;
 }
 
 .footer-logo {
@@ -282,6 +283,7 @@
     img {
         width: inherit;
         height: inherit;
+        filter: grayscale(100%);
     }
 }
 
@@ -295,11 +297,13 @@
     }
     .links-right{
         display: none;
-        @extend .links-left
+        @extend .links-left;
     }
 
     .footer-nav-link {
         margin: 0 .5rem;
+        @extend %top-links-typo;
+        @extend %top-links-color;
     }
 }
 
@@ -313,10 +317,20 @@
     text-align: center;
     h3 {
         margin-bottom: 1rem;
+        @extend %site-footer-heading-color;
+        @extend %site-footer-h3-typo;
+    }
+    p {
+        @extend %site-footer-para-color;
+        @extend %site-footer-para-typo;
     }
     button {
         margin-left: -5px;
     }
+}
+
+.bottom-band{
+    @extend %bottom-band-bg-color;
 }
 
 .bottom-band-in {
@@ -331,10 +345,15 @@
 
     .social-link {
         margin: 0 .3rem;
+        @extend %site-footer-para-color;
+        @extend %site-footer-para-typo;
     }
 
     .legal-info {
         text-align: center;
+        @extend %site-footer-para-color;
+        @extend %site-footer-para-typo;
+        font-size: 0.7rem;
     }
 }
 

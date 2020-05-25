@@ -74,3 +74,15 @@ $button-type-size: 1rem ;
     font-size: $para-type-size-1;
     line-height: 1.4;
 }
+
+%site-footer-h3-typo {
+    font-family: $main-type-family;
+    font-size: $heading-type-size-4;
+    font-weight: bold;
+}
+
+%site-footer-para-typo {
+    font-family: $main-type-family;
+    font-size: $para-type-size-1;
+    line-height: 1.4;
+}

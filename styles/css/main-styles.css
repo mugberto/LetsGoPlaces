@@ -148,7 +148,7 @@ table {
   font-family: "Lobster", cursive;
 }
 
-.site-header .top-links, .site-header .top-more-links {
+.site-header .top-links, .site-header .top-more-links, .footer-nav .footer-nav-link {
   font-size: 1rem;
   font-family: "Noto Sans", sans-serif;
   font-weight: bold;
@@ -202,6 +202,18 @@ table {
   line-height: 1.4;
 }
 
+.subscribe h3, .contact h3, .about h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.subscribe p, .contact p, .about p, .bottom-band-in .social-link, .bottom-band-in .legal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
 .site-header {
   background-color: #D35648;
 }
@@ -210,7 +222,7 @@ table {
   color: #19a054;
 }
 
-.site-header .top-links, .site-header .top-more-links {
+.site-header .top-links, .site-header .top-more-links, .footer-nav .footer-nav-link {
   color: #f4f5f6;
 }
 
@@ -261,6 +273,22 @@ table {
 
 .promo-space {
   color: #f4f5f6;
+}
+
+.site-footer {
+  background-color: #010101;
+}
+
+.subscribe h3, .contact h3, .about h3 {
+  color: #f4f5f6;
+}
+
+.subscribe p, .contact p, .about p, .bottom-band-in .social-link, .bottom-band-in .legal-info {
+  color: #848586;
+}
+
+.bottom-band {
+  background-color: #171717;
 }
 
 .site-header {
@@ -471,6 +499,7 @@ table {
 .footer-logo img {
   width: inherit;
   height: inherit;
+  filter: grayscale(100%);
 }
 
 .footer-nav .links-left, .footer-nav .links-right {
@@ -517,6 +546,7 @@ table {
 }
 .bottom-band-in .legal-info {
   text-align: center;
+  font-size: 0.7rem;
 }
 
 @media screen and (min-width: 1024px) {
