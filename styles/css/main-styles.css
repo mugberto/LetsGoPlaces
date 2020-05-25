@@ -172,6 +172,36 @@ table {
   font-weight: bold;
 }
 
+.user-guide h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.user-guide h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.user-guide p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.promo-space h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.promo-space p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
 .site-header {
   background-color: #D35648;
 }
@@ -198,6 +228,38 @@ table {
 
 .search .search-form button {
   background-color: #D35648;
+  color: #f4f5f6;
+}
+
+.user-guide h2 {
+  color: #D35648;
+}
+
+.user-guide h3 {
+  color: #010101;
+}
+
+.user-guide span {
+  color: #010101;
+}
+
+.user-guide p {
+  color: #444;
+}
+
+.safety-info {
+  background-color: #E17E64;
+}
+
+.testimonies {
+  background-color: #98A4A5;
+}
+
+.platforms {
+  background-color: #519BD7;
+}
+
+.promo-space {
   color: #f4f5f6;
 }
 
@@ -327,16 +389,17 @@ table {
   margin-bottom: 1rem;
   text-align: center;
 }
+.user-guide span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.user-guide h3 {
+  margin-bottom: 1rem;
+}
 .user-guide article {
   padding: 2rem;
   text-align: center;
-}
-.user-guide article span {
-  display: block;
-  margin-bottom: 1rem;
-}
-.user-guide article h3 {
-  margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1024px) {

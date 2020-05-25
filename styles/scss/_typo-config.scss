@@ -6,10 +6,13 @@ $menu-links-size: 1rem;
 $main-type-family: 'Noto Sans', sans-serif;
 $heading-type-face: bold;
 $heading-type-size-1: 1.6rem;
+$heading-type-size-2: 1.4rem;
+$heading-type-size-3: 1.2rem;
+$heading-type-size-4: 1rem;
+$para-type-size-1: 0.875rem;
 $button-type-size: 1rem ;
 
 // application of values
-
 
 %home-link-typo {
     font-size: $brand-name-size;
@@ -40,4 +43,34 @@ $button-type-size: 1rem ;
     font-size: $button-type-size;
     font-weight: bold;
 
+}
+
+%user-guide-h2-typo {
+    font-family: $main-type-family;
+    font-size: $heading-type-size-2;
+    font-weight: bold;
+}
+
+%user-guide-h3-typo {
+    font-family: $main-type-family;
+    font-size: $heading-type-size-3;
+    font-weight: bold;
+}
+
+%user-guide-p-typo {
+    font-family: $main-type-family;
+    font-size: $para-type-size-1;
+    line-height: 1.4;
+}
+
+%prome-space-h2-typo {
+    font-family: $main-type-family;
+    font-size: $heading-type-size-4;
+    font-weight: bold;
+}
+
+%prome-space-p-typo {
+    font-family: $main-type-family;
+    font-size: $para-type-size-1;
+    line-height: 1.4;
 }

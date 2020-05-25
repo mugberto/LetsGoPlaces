@@ -6,9 +6,14 @@ $brand-name-type-color: #19a054;
 $site-header-bg-color: #D35648;
 $site-footer-bg-color: #010101;
 $nav-links-font-color: #f4f5f6;
+$promo-space-type-color: #f4f5f6;
 $search-area-bg-image: url('../../images/locations/Rwanda-Volcanoes-kwitizina.jpg');
 $search-form-bg-color: #fff8;
 $search-btn-bg-color: #D35648;
+$user-guide-bg-color: #f4f5f6;
+$safety-info-bg-color: #E17E64;
+$testimonies-bg-color: #98A4A5;
+$platforms-bg-color: #519BD7;
 
 
 // appliction of values
@@ -61,4 +66,36 @@ $search-btn-bg-color: #D35648;
 %search-button-color {
     background-color: $search-btn-bg-color;
     @include text-color($search-btn-bg-color, );
+}
+
+%user-guide-h2-color {
+    color: #D35648;
+}
+
+%user-guide-h3-color {
+    color: #010101;
+}
+
+%user-guide-span-color {
+    color: #010101;
+}
+
+%user-guide-p-color {
+    color: #444;
+}
+
+%safety-info {
+    background-color: $safety-info-bg-color;
+}
+
+%testimonies {
+    background-color: $testimonies-bg-color;
+}
+
+%platforms {
+    background-color: $platforms-bg-color;
+}
+
+%promo-space-type-color {
+    color: $promo-space-type-color;
 }
