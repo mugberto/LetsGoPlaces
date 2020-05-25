@@ -166,12 +166,6 @@ table {
   font-weight: bold;
 }
 
-.search .search-form button {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-}
-
 .user-guide h2 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem;
@@ -254,11 +248,6 @@ table {
 .search .search-form {
   background-color: #fff8;
   color: #010101;
-}
-
-.search .search-form button {
-  background-color: #D35648;
-  color: #f4f5f6;
 }
 
 .user-guide h2 {
@@ -394,6 +383,12 @@ table {
   margin-bottom: 1rem;
   text-align: center;
 }
+.search .search-container a {
+  position: relative;
+  margin-top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .search .search-form {
   padding: 1rem;
   border-radius: 5px;
@@ -411,10 +406,6 @@ table {
   display: block;
   margin-bottom: 0.5em;
   padding: 0.8em;
-}
-.search .search-form button {
-  display: block;
-  padding: 0.8em 2em;
 }
 
 @media screen and (min-width: 768px) {
@@ -794,6 +785,92 @@ table {
     margin-top: 5rem;
     flex-basis: 25%;
   }
+}
+.btn {
+  display: inline-block;
+  line-height: 1;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-search-red {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: #D35648;
+  color: #f4f5f6;
+}
+
+.btn-search-blue {
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: #2C6CAA;
+  color: #f4f5f6;
+}
+
+.btn-reset-yellow {
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: #E5AC5A;
+  color: #f4f5f6;
+}
+
+.btn-reset-yellow {
+  padding: 0.5em 1em;
+  background-color: #E5AC5A;
+  color: #f4f5f6;
+}
+
+.btn-link-1 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+  color: #444;
+}
+
+.btn-link-2 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+  color: #E17E64;
+}
+
+.btn-link-3 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+  color: #98A4A5;
+}
+
+.btn-link-4 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #519BD7;
+  color: #f4f5f6;
+}
+
+.btn-send {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  border-radius: 2px;
+  background-color: #444;
+  color: #f4f5f6;
+}
+
+.p-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: inherit;
+  color: #D35648;
 }
 
 /*# sourceMappingURL=main-styles.css.map */
