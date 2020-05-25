@@ -214,19 +214,19 @@ table {
   line-height: 1.4;
 }
 
-.result-filter h2, .search-result h2 {
+.result-filter h2, .search-result h2, .article-content h2 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: bold;
 }
 
-.result-card h3 {
+.result-card h3, .suggestions h3 {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.filter-form fieldset label, .result-card p {
+.filter-form fieldset label, .result-card p, .article-content p, .suggestions-item h4 {
   font-family: "Noto Sans", sans-serif;
   font-size: 0.875rem;
   line-height: 1.4;
@@ -747,10 +747,12 @@ table {
 .article-content h2 {
   margin-bottom: 1rem;
   text-transform: uppercase;
+  padding-left: 2rem;
 }
 .article-content p {
   line-height: 1.4rem;
   margin-bottom: 1rem;
+  padding: 3rem 10rem 3rem 2rem;
 }
 .article-content img {
   width: 100%;
@@ -762,6 +764,7 @@ table {
 }
 .suggestions h3 {
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 .suggestions-item {

@@ -559,11 +559,15 @@
     h2{
         margin-bottom: 1rem;
         text-transform: uppercase;
+        padding-left: 2rem;
+        @extend %section-heading-typo;
     }
 
     p {
         line-height: 1.4rem;
         margin-bottom: 1rem;
+        padding: 3rem 10rem 3rem 2rem;
+        @extend %article-para-typo;
     }
 
     img {
@@ -576,6 +580,8 @@
     padding: 1rem;
     h3 {
         margin-bottom: 1rem;
+        @extend %article-heading-typo;
+        font-size: 1rem;
     }
 
 }
@@ -593,6 +599,7 @@
     }
     h4 {
         padding: 1rem;
+        @extend %article-para-typo;
     }
     
 }
