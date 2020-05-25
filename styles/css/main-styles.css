@@ -520,6 +520,7 @@ table {
 }
 
 .footer-nav .links-left, .footer-nav .links-right {
+  position: relative;
   display: inline-block;
   width: 100%;
   padding: 1rem 3rem;
@@ -547,6 +548,11 @@ table {
 }
 .subscribe button, .contact button, .about button {
   margin-left: -5px;
+}
+
+.subscribe form {
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .bottom-band-in {
@@ -639,10 +645,6 @@ table {
   flex-flow: column nowrap;
   width: 100%;
   margin-bottom: 0.5rem;
-}
-.filter-form fieldset input, .filter-form fieldset select {
-  width: 100%;
-  padding: 0.5rem;
 }
 .filter-form fieldset label {
   line-height: 1.4rem;
@@ -871,6 +873,51 @@ table {
   font-family: "Noto Sans", sans-serif;
   font-size: inherit;
   color: #D35648;
+}
+
+.inpt {
+  display: inline-block;
+  line-height: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inpt-search {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+}
+
+.inpt-filter {
+  width: 100%;
+  min-height: 0.8rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+}
+
+.inpt-filter-s {
+  min-height: 0.8rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0 1em;
+  width: 100%;
+  background-color: #f4f5f6;
+}
+
+.inpt-send {
+  border: 1px solid #444;
+  width: 100%;
+  min-height: 0.8rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background: none;
 }
 
 /*# sourceMappingURL=main-styles.css.map */

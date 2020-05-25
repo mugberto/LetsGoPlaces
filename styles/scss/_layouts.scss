@@ -289,6 +289,7 @@
 
 .footer-nav {
     .links-left {
+        position: relative;
         display: inline-block;
         width: 100%;
         padding: 1rem 3rem;
@@ -326,6 +327,13 @@
     }
     button {
         margin-left: -5px;
+    }
+}
+
+.subscribe {
+    form {
+        display: flex;
+        flex-flow: row nowrap;
     }
 }
 
@@ -439,10 +447,6 @@
         flex-flow: column nowrap;
         width: 100%;
         margin-bottom: .5rem;
-        input, select {
-            width: 100%;
-            padding: .5rem;
-        }
         label {
             @extend %article-para-typo;
             line-height: 1.4rem;

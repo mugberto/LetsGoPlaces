@@ -84,3 +84,50 @@
     font-size: inherit;
     color: #D35648;
 }
+
+.inpt {
+    display: inline-block;
+    line-height: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inpt-search {
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: .5em 1em;
+    background-color: #f4f5f6;
+}
+
+.inpt-filter {
+    width: 100%;
+    min-height: .8rem;
+    height: 1.8rem;
+    font-size: .8rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: .5em 1em;
+    background-color: #f4f5f6;
+
+}
+
+.inpt-filter-s {
+    min-height: .8rem;
+    height: 1.8rem;
+    font-size: .8rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding:  0 1em;
+    width: 100%;
+    background-color: #f4f5f6;
+
+}
+
+.inpt-send{
+    border: 1px solid #444;
+    width: 100%;
+    min-height: .8rem;
+    height: 1.8rem;
+    font-size: .8rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: .5em 1em;
+    background: none;
+}

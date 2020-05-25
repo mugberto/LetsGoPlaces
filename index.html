@@ -51,8 +51,8 @@
           <form class="search-form">
             <label for="dest-search">SEARCH BY KEYWORD:</label>
             <div>
-              <input type="text" name="dest-search" id="dest-search" />
-              <button class="btn btn-search-red" type="submit">SEARCH</button>
+              <input class="inpt inpt-search" type="text" name="dest-search" id="dest-search" />
+              <button onclick="javascript:location.href='./places.html'" class="btn btn-search-red" type="button">SEARCH</button>
             </div>
           </form>
           <a class="btn btn-link-1" href="#">How it works</a>
@@ -152,7 +152,7 @@
       </div>
       <nav class="footer-nav">
         <div class="links-left">
-          <a href="#" class="footer-nav-link">HOME</a>
+          <a href="./index.html" class="footer-nav-link">HOME</a>
           <a href="#" class="footer-nav-link">SEARCH</a>
           <a href="#" class="footer-nav-link">ABOUT</a>
           <a href="#" class="footer-nav-link">ADVERTISE</a>
@@ -168,7 +168,7 @@
         <section class="subscribe">
           <h3>SUBSCRIBE</h3>
           <form>
-            <input type="text" name="subscribe" id="subscribe" />
+            <input class="inpt inpt-send" type="text" name="subscribe" id="subscribe" placeholder="youremail@example.com"/>
             <button class="btn btn-send" type="submit">SEND</button>
           </form>
         </section>
