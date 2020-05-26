@@ -1,0 +1,965 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-variant: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.site-header .home-link {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
+  color: #19a054;
+}
+
+.site-header .top-links,
+.site-header .top-more-links,
+.footer-nav .footer-nav-link {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  color: #f4f5f6;
+}
+
+.user-guide h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #d35648;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.promo-space h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.result-filter h2,
+.search-result h2,
+.article-content h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.result-filter h2,
+.search-result h2 {
+  color: #848586;
+}
+
+.result-filter h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.search-result h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dest-detail h2 {
+  display: none;
+}
+
+.search .search-container h2 {
+  font-size: 1.6rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.search-form {
+  background-color: #fff8;
+  color: #010101;
+}
+
+.search .search-form {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.user-guide h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #010101;
+  margin-bottom: 1rem;
+}
+
+.user-guide p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #444;
+}
+
+.promo-space p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subscribe h3,
+.contact h3,
+.about h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f4f5f6;
+  margin-bottom: 1rem;
+}
+
+.subscribe p,
+.contact p,
+.about p,
+.bottom-band-in .social-link,
+.bottom-band-in .legal-info {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #848586;
+}
+
+.result-card h3,
+.suggestions h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.filter-form fieldset label,
+.result-card p,
+.article-content p,
+.suggestions-item h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.site-header {
+  background-color: #d35648;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+
+.search {
+  background-image: url("../../images/locations/Rwanda-Volcanoes-kwitizina.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #f4f5f6;
+  padding: 1rem;
+}
+
+.user-guide span {
+  color: #010101;
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.safety-info {
+  background-color: #e17e64;
+}
+
+.testimonies {
+  background-color: #98a4a5;
+}
+
+.platforms {
+  background-color: #519bd7;
+}
+
+.promo-space {
+  color: #f4f5f6;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-footer {
+  background-color: #010101;
+  padding-top: 2rem;
+}
+
+.bottom-band {
+  background-color: #171717;
+}
+
+.result-card p {
+  color: #343536;
+}
+
+.site-header h1 {
+  margin-bottom: 2rem;
+}
+
+.site-header .header-logo {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  object-fit: fill;
+  vertical-align: middle;
+}
+
+.site-header .top-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.site-header .top-link-text {
+  display: none;
+}
+
+.site-header .top-more-links {
+  border: none;
+  background: none;
+  padding: 0;
+  line-height: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .site-header {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .site-header h1 {
+    margin-bottom: 0;
+  }
+
+  .site-header .top-nav {
+    flex-basis: 60%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .site-header {
+    justify-content: space-between;
+  }
+
+  .site-header h1 {
+    margin-bottom: 0;
+  }
+
+  .site-header .top-nav {
+    flex-basis: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .site-header .top-link-text {
+    display: inline;
+    margin-left: 1rem;
+  }
+}
+
+.search .search-container {
+  margin: 10rem auto;
+}
+
+.footer-logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.search .search-container a {
+  position: relative;
+  margin-top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.filter-form fieldset label {
+  line-height: 1.4rem;
+}
+
+.search .search-form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.search .search-form div {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.search .search-form input {
+  flex-grow: 1;
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0.8em;
+}
+
+@media screen and (min-width: 768px) {
+  .search .search-container {
+    width: 75%;
+  }
+
+  .search .search-form {
+    padding: 2rem;
+  }
+
+  .search .search-form div {
+    flex-flow: row nowrap;
+  }
+
+  .search .search-form input {
+    margin: 0;
+  }
+}
+
+.in-wrapper {
+  margin: 0 auto;
+  max-width: 1313px;
+}
+
+.user-guide {
+  padding: 3rem 1rem;
+}
+
+.user-guide article {
+  padding: 2rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .guide-items-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  .guide-items-container .guide-item {
+    flex-basis: 35%;
+  }
+}
+
+.promo-space img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.promo-space .msg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .promo-space {
+    flex-flow: row-reverse nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .promo-space h2,
+  .promo-space p {
+    text-align: left;
+    padding-right: 2rem;
+  }
+
+  .promo-space .msg {
+    align-items: flex-start;
+  }
+}
+
+.footer-logo {
+  margin: 1rem auto;
+  width: 5rem;
+  height: 5rem;
+}
+
+.footer-logo img {
+  width: inherit;
+  height: inherit;
+  filter: grayscale(100%);
+}
+
+.footer-nav .links-left,
+.footer-nav .links-right {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 3rem;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+.footer-nav .links-right {
+  display: none;
+}
+
+.footer-nav .footer-nav-link {
+  margin: 0 0.5rem;
+}
+
+.subscribe-contact-about {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.subscribe,
+.contact,
+.about {
+  padding: 1rem;
+  text-align: center;
+}
+
+.subscribe button,
+.contact button,
+.about button {
+  margin-left: -5px;
+}
+
+.subscribe form {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.bottom-band-in {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 1rem;
+}
+
+.bottom-band-in .social-channels {
+  margin-bottom: 1rem;
+}
+
+.bottom-band-in .social-link {
+  margin: 0 0.3rem;
+}
+
+.bottom-band-in .legal-info {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .site-footer {
+    position: relative;
+    padding-top: 4rem;
+  }
+
+  .footer-logo {
+    position: absolute;
+    left: 50%;
+    top: 2rem;
+    transform: translateX(-50%);
+  }
+
+  .footer-nav {
+    margin-bottom: 2rem;
+  }
+
+  .footer-nav .links-left,
+  .footer-nav .links-right {
+    display: inline-block;
+    width: calc(50% - 4px);
+    padding: 1rem 3rem;
+    text-align: right;
+  }
+
+  .footer-nav .links-right {
+    text-align: left;
+  }
+
+  .footer-nav .footer-nav-link {
+    margin: 0 0.5rem;
+  }
+
+  .subscribe-contact-about {
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
+  .subscribe-contact-about .subscribe,
+  .subscribe-contact-about .contact,
+  .subscribe-contact-about .about {
+    flex-basis: 25%;
+  }
+
+  .bottom-band-in {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .bottom-band-in .social-channels {
+    margin-bottom: 0;
+  }
+
+  .bottom-band-in .social-link {
+    margin: 0 0.3rem;
+  }
+
+  .bottom-band-in .legal-info {
+    text-align: right;
+  }
+}
+
+.result-filter {
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.filter-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-form fieldset {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.filter-form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.search-result {
+  padding: 1rem;
+}
+
+.result-card {
+  padding: 1rem;
+  width: 100%;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.result-card .result-img-link {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.result-card img {
+  width: inherit;
+}
+
+.result-card h3,
+.result-card p {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-form {
+    flex-flow: row wrap;
+  }
+
+  .filter-form fieldset {
+    flex-basis: 19%;
+    margin: 0.1rem;
+  }
+
+  .filter-form button {
+    flex-basis: 13%;
+    padding: 0.5rem;
+    margin: 0.1rem;
+  }
+
+  .search-result-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .search-result-container .result-card {
+    flex-basis: 20rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .filter-form {
+    align-items: flex-end;
+  }
+
+  .filter-form fieldset {
+    flex-basis: 14%;
+    margin: 0 0.1rem;
+  }
+
+  .filter-form button {
+    flex-basis: 13%;
+    padding: 0.5rem;
+    margin: 0.1rem;
+  }
+
+  .search-result-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .search-result-container .result-card {
+    flex-basis: 20rem;
+  }
+}
+
+.dest-detail {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2rem auto;
+}
+
+.article-content {
+  padding: 1rem;
+}
+
+.article-content h3 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+}
+
+.article-content p {
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+  padding: 3rem 10rem 3rem 2rem;
+}
+
+.article-content img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.suggestions {
+  padding: 1rem;
+}
+
+.suggestions h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.suggestions-item {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.suggestions-item img {
+  width: 8rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+.suggestions-item h4 {
+  padding: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .dest-detail {
+    flex-flow: row nowrap;
+  }
+
+  .dest-detail .article-content {
+    flex-basis: 75%;
+  }
+
+  .dest-detail .suggestions {
+    margin-top: 5rem;
+    flex-basis: 25%;
+  }
+}
+
+.btn {
+  display: inline-block;
+  line-height: 1;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-search-red {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: #d35648;
+  color: #f4f5f6;
+}
+
+.btn-search-blue {
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: #2c6caa;
+  color: #f4f5f6;
+}
+
+.btn-reset-yellow {
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background-color: #e5ac5a;
+  color: #f4f5f6;
+}
+
+.btn-link-1 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+  color: #444;
+}
+
+.btn-link-2 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+  color: #e17e64;
+}
+
+.btn-link-3 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+  color: #98a4a5;
+}
+
+.btn-link-4 {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #519bd7;
+  color: #f4f5f6;
+}
+
+.btn-send {
+  font-size: 0.875rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  border-radius: 2px;
+  background-color: #444;
+  color: #f4f5f6;
+}
+
+.p-link {
+  font-family: "Noto Sans", sans-serif;
+  font-size: inherit;
+  color: #d35648;
+}
+
+.inpt {
+  display: inline-block;
+  line-height: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.inpt-search {
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+}
+
+.inpt-filter {
+  width: 100%;
+  min-height: 0.8rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0.5em 1em;
+  background-color: #f4f5f6;
+}
+
+.inpt-filter-s {
+  min-height: 0.8rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  padding: 0 1em;
+  width: 100%;
+  background-color: #f4f5f6;
+}
+
+.inpt-send {
+  border: 1px solid #444;
+  width: 100%;
+  min-height: 0.8rem;
+  height: 1.8rem;
+  font-size: 0.8rem;
+  font-family: "Noto Sans", sans-serif;
+  color: #f4f5f6;
+  padding: 0.5em 1em;
+  background: none;
+}
+
+/*# sourceMappingURL=main-styles.css.map */
