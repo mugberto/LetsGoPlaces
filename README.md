@@ -20,7 +20,7 @@ they can use keywords and get a lot of suggestions that will help them choose.
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/mugberto/LetsGoPlaces/commit/d06c8e3ac44fd5d2407694fdc0a44bd12e0acc7a)
+[Live Demo Link](https://rawcdn.githack.com/mugberto/LetsGoPlaces/11e82224f504961cb3a08198f1ca0cb6a8c80066/index.html)
 ​
 
 ## Getting Started
